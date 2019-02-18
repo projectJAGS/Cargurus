@@ -20,6 +20,6 @@ public class Constant {
 
     public static final String DRIVER_TYPE = "webdriver.chrome.driver";
 
-    public static final String DRIVER_PATH = "/user/bin/chromedriver";
+    public static final String DRIVER_PATH = "/usr/bin/chromedriver";
 
 }
