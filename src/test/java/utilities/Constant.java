@@ -4,7 +4,7 @@ public class Constant {
 
     public static final String URL = "https://www.cargurus.com";
 
-    public static final String PATH_TEST_DATA = "/projectjags/src/test/resources/";
+    public static final String PATH_TEST_DATA = "src/test/resources/";
 
     public static final String FILE_TEST_DATA = "CarsTestData.xlsx";
 
