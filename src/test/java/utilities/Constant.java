@@ -4,7 +4,7 @@ public class Constant {
 
     public static final String URL = "https://www.cargurus.com";
 
-    public static final String PATH_TEST_DATA = "C:\\Users\\GregsLab\\IdeaProjects\\projectjags\\src\\test\\resources\\";
+    public static final String PATH_TEST_DATA = "/projectjags/src/test/resources/";
 
     public static final String FILE_TEST_DATA = "CarsTestData.xlsx";
 
@@ -17,5 +17,9 @@ public class Constant {
     public static final String SUBMIT_ID = "dealFinderForm_0";
 
     public static final String RESULT_XPATH = "//*[contains(@id, 'listing_')]";
+
+    public static final String DRIVER_TYPE = "webdriver.chrome.driver";
+
+    public static final String DRIVER_PATH = "/user/bin/chromedriver";
 
 }

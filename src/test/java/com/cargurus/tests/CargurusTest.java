@@ -36,7 +36,7 @@ public class CargurusTest {
 
     @Before
     public void before() {
-        System.setProperty("webdriver.chrome.driver", "/user/bin/chromedriver");
+        System.setProperty(DRIVER_TYPE, DRIVER_PATH);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
