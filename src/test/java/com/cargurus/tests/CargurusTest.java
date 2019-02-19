@@ -38,10 +38,10 @@ public class CargurusTest {
     @Before
     public void before() {
         System.setProperty(DRIVER_TYPE, DRIVER_PATH);
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headless");
-        chromeOptions.addArguments("--no-sandbox");
-        driver = new ChromeDriver(chromeOptions);
+//        ChromeOptions chromeOptions = new ChromeOptions();
+//        chromeOptions.addArguments("--headless");
+//        chromeOptions.addArguments("--no-sandbox");
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
