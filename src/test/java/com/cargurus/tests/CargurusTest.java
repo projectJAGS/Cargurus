@@ -30,7 +30,7 @@ import static utilities.Constant.*;
 @RunWith(Parameterized.class)
 public class CargurusTest {
 
-    private static WebDriver driver;
+private static WebDriver driver;
     private String make;
     private String model;
     private String zip;
@@ -38,10 +38,12 @@ public class CargurusTest {
     @Before
     public void before() {
         System.setProperty(DRIVER_TYPE, DRIVER_PATH);
-//        ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--headless");
-//        chromeOptions.addArguments("--no-sandbox");
-        driver = new ChromeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setBinary("/usr/bin/google-chrome-stable");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-gpu");
+        driver = new ChromeDriver(chromeOptions);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }

@@ -5,14 +5,14 @@ public class Constant {
     public static final String URL = "https://www.cargurus.com";
 
     public static final String DRIVER_TYPE = "webdriver.chrome.driver";
-//
-//    public static final String DRIVER_PATH = "/usr/bin/chromedriver";
-//
-//    public static final String PATH_TEST_DATA = "src/test/resources/";
 
-    public static final String DRIVER_PATH = "src\\test\\resources\\chromedriver.exe";
+    public static final String DRIVER_PATH = "/usr/bin/chromedriver";
 
-    public static final String PATH_TEST_DATA = "src\\test\\resources\\";
+    public static final String PATH_TEST_DATA = "src/test/resources/";
+
+//    public static final String DRIVER_PATH = "src\\test\\resources\\chromedriver.exe";
+//
+//    public static final String PATH_TEST_DATA = "src\\test\\resources\\";
 
     public static final String FILE_TEST_DATA = "CarsTestData.xlsx";
 
