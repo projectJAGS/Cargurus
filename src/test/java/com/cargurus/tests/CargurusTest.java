@@ -46,7 +46,6 @@ private static WebDriver driver;
         chromeOptions.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(chromeOptions);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
     }
 
     @After
